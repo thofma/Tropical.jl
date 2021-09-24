@@ -1,5 +1,7 @@
 # Tropical
 
+[![Build Status](https://github.com/thofma/Tropical.jl/workflows/Run%20tests/badge.svg)](https://github.com/thofma/Tropical.jl/actions?query=workflow%3A%22Run%20tests%22+branch%3Amaster)
+
 ## Installation
 
 In the REPL type
