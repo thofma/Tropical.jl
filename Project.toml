@@ -1,0 +1,9 @@
+name = "Tropical"
+uuid = "9d7289ca-2365-436c-a120-1df6e62ebd2f"
+authors = ["Tommy Hofmann <thofma@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
