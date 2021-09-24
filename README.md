@@ -1,5 +1,19 @@
 # Tropical
 
+## Installation
+
+In the REPL type
+
+```julia
+]add https://github.com/thofma/Tropical.jl
+```
+
+If you want to play with the package and make changes, type
+
+```julia
+]dev https://github.com/thofma/Tropical.jl
+```
+
 ## Summary
 
 First stab at tropical rings in Oscar. This implementation
