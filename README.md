@@ -50,10 +50,10 @@ For more examples see `test/runtests.jl`.
 
 ## More details
 
-Internally, a tropical ring elements is either a rational number
+Internally, a tropical ring element is either a rational number
 (of type `fmpq`) or infinity. To accommodate both conventions (min/max),
 the types are parameterized by `T`, which is either `typeof(min)` or
-`typeof(max)`.
+`typeof(max)`. All this is hidden behind `+` and `*`.
 
 At certain places Oscar (or the packages Oscar is built upon) assumes
 that `R(1)` is the one of the ring `R` (and similar for zero). For this
