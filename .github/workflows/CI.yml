@@ -50,7 +50,7 @@ jobs:
       - name: "Run tests"
         uses: julia-actions/julia-runtest@latest
       - name: "Run doctests"
-        if: ${{ matrix.julia-version == '1.6' }}
+        if: ${{ matrix.julia-version == '0.1' }}
         run: |
           julia --project=docs --color=yes --code-coverage -e '
             using Pkg
