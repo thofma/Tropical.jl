@@ -46,6 +46,18 @@ julia> x^2 + x
 x^2 + x
 ```
 
+To create tropical polynomials, there is also a `@tropical` macro.
+
+```julia
+julia> T = tropical_ring(min)
+Tropical ring (min)
+
+julia> Tx, x = PolynomialRing(T, "x" => 1:3);
+
+julia> @tropical min(1, x[1], x[2], 2*x[3])
+x[1] + x[2] + x[3]^2 + (1)
+```
+
 For more examples see `test/runtests.jl`.
 
 ## More details
